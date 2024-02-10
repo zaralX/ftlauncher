@@ -4,6 +4,7 @@ import Footer from "./components/Footer.vue";
 import {ref} from "vue";
 const launchDisabled = ref(false);
 const nickname = ref('');
+const javaList = ref([]);
 
 const launchHandle = () => {
   if (nickname.value?.value.length < 3) {
@@ -28,16 +29,20 @@ window.api.onLoadStatus((data) => {
   loadStatus.value = data;
 })
 window.api.onLoadNickname((data) => {
-  console.log("123")
   nickname.value.value = data;
 })
-
+window.api.onJavaList((data) => {
+  javaList.value = data;
+})
 </script>
 
 <template>
   <div class="text-themeText font-medium">
     <Header />
-    <div class="w-full">
+    <div v-if="javaList.length > 0" class="w-full">
+      <div class="absolute text-sm opacity-75">
+        {{javaList[0].homedir}}
+      </div>
       <div class="flex justify-center items-center flex-col">
         <div class="my-6">
           <p class="text-sm">Никнейм</p>
@@ -62,6 +67,10 @@ window.api.onLoadNickname((data) => {
           </div>
         </div>
       </div>
+    </div>
+    <div v-if="javaList.length == 0" class="mt-[33%] flex flex-col justify-center items-center">
+      <p class="text-2xl">УСТАНОВИТЕ JDK 17 И ПЕРЕЗАПУСТИТЕ ЛАУНЧЕР</p>
+      <a target="_blank" class="text-xl text-themeInfo" href="https://www.oracle.com/java/technologies/downloads/#jdk17-windows">Скачать JDK 17</a>
     </div>
     <Footer />
   </div>

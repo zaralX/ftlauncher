@@ -12,6 +12,9 @@ const api = {
   }),
   onLoadNickname: (callback) => ipcRenderer.on("loadNickname", (event, args) => {
     callback(args)
+  }),
+  onJavaList: (callback) => ipcRenderer.on("javaList", (event, args) => {
+    callback(args)
   })
 }
 

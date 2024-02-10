@@ -4,7 +4,9 @@ const { join } = require('path')
 const { electronApp, optimizer, is } = require('@electron-toolkit/utils')
 import icon from '../../resources/icon.png?asset'
 import { Minecraft } from './Minecraft';
+import {resolve} from "path";
 const {autoUpdater} = require("electron-updater")
+const jdk_utils = require("jdk-utils");
 const os = require('os');
 const storage = require('electron-json-storage');
 storage.setDataPath(os.tmpdir());
@@ -131,7 +133,10 @@ app.whenReady().then(() => {
       if (error) throw error;
       mainWindow.webContents.send("loadNickname", data.nickname)
     })
-  }, 2000)
+    jdk_utils.findRuntimes().then((data) => {
+      mainWindow.webContents.send("javaList", data.filter(runtime => runtime.homedir.includes("17")))
+    })
+  }, 1000)
 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd7a6a40-1edd-4dba-ac3c-85c00ab8f243" name="Changes" comment="first commit">
+    <list default="true" id="bd7a6a40-1edd-4dba-ac3c-85c00ab8f243" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Minecraft.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Minecraft.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/preload/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +134,7 @@
       <updated>1707479645061</updated>
       <workItem from="1707479649810" duration="13607000" />
       <workItem from="1707548553226" duration="200000" />
-      <workItem from="1707550233749" duration="27452000" />
+      <workItem from="1707550233749" duration="31834000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -139,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707577207513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <option name="closed" value="true" />
+      <created>1707579569242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707579569242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,33 +165,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
     <option name="historyDtoById">
       <map>
-        <entry key="e61f5c">
+        <entry key="918cb1">
           <value>
             <ChatHistoryModel>
               <option name="contextFilesPaths">
                 <list>
-                  <option value="$PROJECT_DIR$/src/main/Minecraft.ts" />
-                  <option value="$PROJECT_DIR$/src/main/minecraft/authenticator.js" />
+                  <option value="$PROJECT_DIR$/src/main/index.ts" />
                 </list>
               </option>
-              <option name="id" value="e61f5c" />
-              <option name="initiateTms" value="1707493284022" />
+              <option name="id" value="918cb1" />
+              <option name="initiateTms" value="1707580689750" />
+              <option name="request" value="require(&quot;jdk-utils&quot;).findRuntimes().then(console.log)&#10;выводит&#10;[&#10;  { homedir: 'C:\\Program Files\\Java\\jdk1.8.0_333' },&#10;  { homedir: 'C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot' },&#10;  { homedir: 'C:\\Program Files\\BellSoft\\LibericaJDK-17' },&#10;  { homedir: 'C:\\Program Files\\BellSoft\\LibericaJRE-18' },&#10;  { homedir: 'C:\\Users\\Miste\\.jdks\\corretto-16.0.2' },&#10;  { homedir: 'C:\\Program Files\\BellSoft\\LibericaJDK-8' }&#10;]&#10;&#10;как мне получить все объекты содержащие в homedit 17" />
               <option name="response" value="" />
-              <option name="responseDescription" value="It seems that there is an error in your code. The module './minecraft/launcher.js' cannot be found. Please make sure that the file exists in the correct location and that the file path is correct." />
+              <option name="responseDescription" value="Чтобы получить все объекты, содержащие в поле `homedir` значение &quot;17&quot;, вам нужно выполнить следующий код:&#10;&#10;```typescript&#10;const runtimes = [&#10;  { homedir: 'C:\\Program Files\\Java\\jdk1.8.0_333' },&#10;  { homedir: 'C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot' },&#10;  { homedir: 'C:\\Program Files\\BellSoft\\LibericaJDK-17' },&#10;  { homedir: 'C:\\Program Files\\BellSoft\\LibericaJRE-18' },&#10;  { homedir: 'C:\\Users\\Miste\\.jdks\\corretto-16.0.2' },&#10;  { homedir: 'C:\\Program Files\\BellSoft\\LibericaJDK-8' }&#10;];&#10;&#10;const filteredRuntimes = runtimes.filter(runtime =&gt; runtime.homedir.includes(&quot;17&quot;));&#10;&#10;console.log(filteredRuntimes);&#10;```&#10;&#10;Этот код создает массив `filteredRuntimes`, содержащий только объекты, у которых в поле `homedir` содержится значение &quot;17&quot;. Затем он выводит результат в консоль." />
               <option name="responseFileName" value="" />
               <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1707493287915" />
+              <option name="responseTms" value="1707580697225" />
               <option name="usedFilesPaths">
                 <list>
-                  <option value="$PROJECT_DIR$/src/main/minecraft/launcher.js" />
-                  <option value="$PROJECT_DIR$/src/main/minecraft/authenticator.js" />
-                  <option value="$PROJECT_DIR$/src/main/Minecraft.ts" />
-                  <option value="$PROJECT_DIR$/src/main/minecraft/handler.js" />
+                  <option value="$PROJECT_DIR$/src/main/index.ts" />
                 </list>
               </option>
             </ChatHistoryModel>

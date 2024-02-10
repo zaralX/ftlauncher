@@ -1,6 +1,6 @@
 {
   "name": "ftlauncher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Electron application with Vue and TypeScript",
   "main": "./out/main/index.js",
   "author": "zaralX",
@@ -24,6 +24,7 @@
     "electron-json-storage": "^4.6.0",
     "electron-updater": "^6.1.7",
     "fs-extra": "^11.2.0",
+    "jdk-utils": "^0.5.1",
     "mv": "^2.1.1",
     "request": "^2.88.2",
     "tailwindcss-animation-delay": "^1.2.0",
