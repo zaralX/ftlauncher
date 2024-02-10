@@ -136,7 +136,7 @@ app.whenReady().then(() => {
     jdk_utils.findRuntimes().then((data) => {
       mainWindow.webContents.send("javaList", data.filter(runtime => runtime.homedir.includes("17")))
     })
-  }, 1000)
+  }, 5000)
 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
