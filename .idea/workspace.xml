@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd7a6a40-1edd-4dba-ac3c-85c00ab8f243" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/FTLauncher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/entitlements.mac.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-app-update.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electron-builder.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electron.vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/1.18.2/installer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machinet.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/modlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/additions-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/additions-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/additions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/gear.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/general.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/generator-storage.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/generators-gear.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/generators.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/machine-storage.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/machine-usage.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/tiers.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/tools-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/tools.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Mekanism/world.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/MouseTweaks.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Obscuria/aquamirae-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Obscuria/aquamirae-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/Obscuria/obscure-api-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/YungsBridges-forge-1_18.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/YungsExtras-forge-1_18.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/YungsExtras/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/YungsExtras/forge-1_18/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/YungsExtras/forge-1_18/wishing_wells.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/alligator_snapping_turtle_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/anaconda_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/anteater_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/bald_eagle_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/bison_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/blobfish_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/bone_serpent_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/bunfungus_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/cachalot_whale_beached_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/cachalot_whale_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/capuchin_monkey_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/catfish_huge_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/catfish_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/cave_centipede_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/cockroach_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/comb_jelly_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/cosmaw_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/cosmic_cod_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/crimson_mosquito_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/crocodile_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/crow_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/devils_hole_pupfish_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/dropbear_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/elephant_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/emu_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/endergrade_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/enderiophage_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/flutter_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/fly_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/flying_fish_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/frilled_shark_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/froststalker_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/gazelle_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/gelada_monkey_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/giant_squid_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/gorilla_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/grizzly_bear_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/guster_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/hammerhead_shark_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/hummingbird_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/jerboa_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/kangaroo_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/komodo_dragon_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/laviathan_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/leafcutter_anthill_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/lobster_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/maned_wolf_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/mantis_shrimp_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/mimic_octopus_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/mimicube_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/moose_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/mungus_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/orca_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/platypus_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/raccoon_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/rattlesnake_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/roadrunner_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/rocky_roller_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/seagull_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/seal_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/shoebill_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/skelewag_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/snow_leopard_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/soul_vulture_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/spectre_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/straddler_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/stradpole_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/sunbird_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/tarantula_hawk_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/tasmanian_devil_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/terrapin_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/tiger_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/toucan_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/tusklin_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/void_worm_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/warped_mosco_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/alexsmobs/warped_toad_spawns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/appleskin-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/appliedenergistics2/client.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/appliedenergistics2/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/accelerate.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/amplify.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/aoe.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/aquatic.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/blink.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/bounce.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/break.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/cold_snap.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/conjure_water.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/craft.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/crush.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/cut.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/dampen.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/decelerate.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/delay.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/dispel.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/duration_down.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/ender_inventory.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/evaporate.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/exchange.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/explosion.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/extend_time.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/extract.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/fangs.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/fell.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/firework.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/flare.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/fortune.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/freeze.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/glide.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/gravity.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/grow.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/gust.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/harm.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/harvest.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/heal.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/hex.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/ignite.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/intangible.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/interact.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/invisibility.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/launch.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/leap.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/light.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/lightning.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/linger.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/name.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/orbit.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/phantom_block.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/pickup.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/pierce.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/place_block.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/projectile.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/pull.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/redstone_signal.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/rune.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/self.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/sense_magic.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/sensitive.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/slowfall.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/smelt.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/snare.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/split.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/summon_decoy.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/summon_steed.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/summon_undead.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/summon_vex.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/summon_wolves.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/toss.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/touch.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/underfoot.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/wind_shear.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ars_nouveau/wither.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterdeserttemples-forge-1_18_2.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterdeserttemples/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterdeserttemples/forge-1_18_2/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterdeserttemples/forge-1_18_2/armorstands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterdeserttemples/forge-1_18_2/itemframes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterdungeons-forge-1_18.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterfortresses-forge-1_18_2.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterfortresses/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterfortresses/forge-1_18_2/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterfortresses/forge-1_18_2/itemframes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/bettermineshafts-forge-1_18.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/bettermineshafts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/bettermineshafts/forge-1_18_2/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betteroceanmonuments-forge-1_18_2.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds-forge-1_18.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds/forge-1_18_2/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds/forge-1_18_2/armorstands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds/forge-1_18_2/itemframes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds/forge-1_18_2/ores.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterstrongholds/forge-1_18_2/rareblocks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/betterwitchhuts-forge-1_18_2.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/backups/last_working_configs_backup.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/biomepedia.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/byg-biome-dictionary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/client/biomepedia_inventory.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/config_versions.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/end-biomes.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/growing-patterns.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/nether-biomes.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_2.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/middle_biomes_variant/middle_biomes_variant_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/oceans/oceans_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/oceans/oceans_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/peak_biomes/peak_biomes_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/peak_biomes/peak_biomes_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/peak_biomes_variant/peak_biomes_variant_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_2.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_3.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/plateau_biomes_variant/plateau_biomes_variant_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/shattered_biomes/shattered_biomes_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/slope_biomes/slope_biomes_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/slope_biomes/slope_biomes_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/biome_selectors/slope_biomes_variant/slope_biomes_variant_vanilla.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/byg-overworld-biomes.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/regions/rare_region_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/regions/region_1.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/regions/region_2.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/overworld/regions/region_3.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/settings.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/surface_rules/end_surface_rules.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/surface_rules/nether_surface_rules.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/surface_rules/overworld_surface_rules.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/byg/trades.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/citadel-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/computercraft-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/configured-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/constructionwand-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/curios-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/de/mari_023/ae2wtlib.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_mob_farm-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/easy_npc-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/easy_npc-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/ALLAY/allay_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/CAT/cat_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/CHICKEN/chicken_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/FAIRY/fairy_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/HUMANOID/humanoid_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/HUMANOID_SLIM/humanoid_slim_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/ILLAGER/illager_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/IRON_GOLEM/iron_golem_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/SKELETON/skeleton_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/VILLAGER/villager_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/ZOMBIE/zombie_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/easy_npc/skin/ZOMBIE_VILLAGER/zombie_villager_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/farmersdelight-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/farmersdelight-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/fml.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/forge-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/forge-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/ftbultimine.snbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iammusicplayer.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/amethyst_gen_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/amphithere_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/cockatrice_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/cyclops_cave_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/deathworm_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/desert_myrmex_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/fire_dragon_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/fire_dragon_cave_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/fire_dragon_skeleton_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/fire_lily_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/forest_troll_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/gorgon_temple_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/graveyard_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippocampus_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_black_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_brown_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_chestnut_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_creamy_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_dark_brown_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_gray_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hippogryph_white_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/hydra_cave_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/ice_dragon_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/ice_dragon_cave_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/ice_dragon_skeleton_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/ice_lily_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/jungle_myrmex_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/lightning_dragon_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/lightning_dragon_cave_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/lightning_dragon_skeleton_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/lightning_lily_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/mausoleum_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/mountain_troll_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/ore_gen_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/pixie_village_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/sapphire_gen_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/sea_serpent_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/siren_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/snowy_troll_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/stymphalian_bird_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/iceandfire/wandering_cyclops_biomes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jade-addons.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jade/hide-blocks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jade/hide-entities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jade/jade.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jade/jade_plugins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jei/ingredient-list-mod-sort-order.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jei/ingredient-list-type-sort-order.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jei/jei-client.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jei/recipe-category-sort-order.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/jei/world/server/Fairy_Tail_25be51d0/bookmarks.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/lazierae2-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/lootr-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/lootr-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/mantle-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/otyacraftengine.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/patchouli-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/combat/category.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/combat/connections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/combat/definitions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/combat/experience.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/combat/skills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/mining/category.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/mining/connections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/mining/definitions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/mining/experience.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/categories/mining/skills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/puffish_skills/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/sidebar_buttons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/sophisticatedbackpacks-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/sophisticatedcore-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/sophisticatedcore-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/storagedrawers-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/storagedrawers-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/tconstruct-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/tconstruct-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/terrablender.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/tinkerslevellingaddon-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/twilightforest-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/twilightforest-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/vampiresneedumbrellas-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/vampirism-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/vampirism-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/.unpack_finished" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/af/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ar/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ast/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/az/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ba/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/be/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/bg/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/brb/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/bs/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ca/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/cs/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/cy/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/da/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/de/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/el/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/enp/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/eo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/et/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/eu/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fa/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fil/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/gd/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/gl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/got/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/gv/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/haw/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/he/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/hi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/hr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/hu/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/id/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ido/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ig/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/is/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/it/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ja/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ka/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/kab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/kk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/kn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ko/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/kw/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/lb/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/li/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/lol/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/lt/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/lv/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/mi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/mk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/mn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/moh/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ms/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/mt/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/nds/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/nl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/no/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/oc/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/oj/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/pl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ro/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ru/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/se/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/sk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/sl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/so/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/sq/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/sr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/swg/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/szl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/ta/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/th/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/tr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/uk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/vec/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/vi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/yi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/yo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/worldedit/worldedit.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/xaeropatreon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/xaeroworldmap-common.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/config/xaeroworldmap.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/options.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack/overrides/servers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/minecraft-run/authenticator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/minecraft-run/handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/minecraft-run/launcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Minecraft.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preload/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preload/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/css/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/fonts/montserrat/montserrat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/img/default-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.web.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2c83ztq8ZY7AKuWESTdHVCtP6PS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "18.16.0",
+    "javascript.nodejs.core.library.typings.version": "18.16.0",
+    "last_opened_file_path": "C:/Users/Miste/OneDrive/Рабочий стол/FTLauncher",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "D:\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher" />
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\src\main" />
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\src\renderer\src\assets\img" />
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\src\renderer\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\resources" />
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\src\main" />
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\src\renderer\src\assets\fonts\montserrat" />
+      <recent name="C:\Users\Miste\OneDrive\Рабочий стол\FTLauncher\src\renderer\src\assets\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build:win" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:win" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build:win" />
+      <item itemvalue="npm.dev" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd7a6a40-1edd-4dba-ac3c-85c00ab8f243" name="Changes" comment="" />
+      <created>1707479645061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707479645061</updated>
+      <workItem from="1707479649810" duration="13607000" />
+      <workItem from="1707548553226" duration="200000" />
+      <workItem from="1707550233749" duration="25574000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/preload/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="e61f5c">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/Minecraft.ts" />
+                  <option value="$PROJECT_DIR$/src/main/minecraft/authenticator.js" />
+                </list>
+              </option>
+              <option name="id" value="e61f5c" />
+              <option name="initiateTms" value="1707493284022" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="It seems that there is an error in your code. The module './minecraft/launcher.js' cannot be found. Please make sure that the file exists in the correct location and that the file path is correct." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1707493287915" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/minecraft/launcher.js" />
+                  <option value="$PROJECT_DIR$/src/main/minecraft/authenticator.js" />
+                  <option value="$PROJECT_DIR$/src/main/Minecraft.ts" />
+                  <option value="$PROJECT_DIR$/src/main/minecraft/handler.js" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

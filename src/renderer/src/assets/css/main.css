@@ -1,0 +1,40 @@
+@import url("../fonts/montserrat/montserrat.css");
+
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  transition: all 0.1s ease-in;
+  background: var(--thirty);
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.light {
+  --primary: #8c8c8c;
+  --secondary: #696969;
+  --thirty: #505050;
+  --fourth: #383838;
+  --fifth: #1f1f1f;
+  --success: #82d6bc;
+  --info: #83cbff;
+  --warning: #ffad0a;
+  --danger: #f68692;
+  --text: #ffffff;
+}
+
+.dark {
+  --primary: #3c3c48;
+  --secondary: #2c2c36;
+  --thirty: #212129;
+  --fourth: #1b1b21;
+  --fifth: #0e0e13;
+  --success: #3cb690;
+  --info: #1d9fff;
+  --warning: #ffcf70;
+  --danger: #ee283c;
+  --text: #ffffff;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+  cursor: default;
+}
